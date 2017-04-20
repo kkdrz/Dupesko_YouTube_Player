@@ -1,0 +1,54 @@
+#
+# generated on 2017/02/09 03:08:25
+#
+# --table-start--
+dataClass=pl.dupesko.dupesko.Model.Song
+tableName=music
+# --table-fields-start--
+# --field-start--
+fieldName=id
+columnName=song_id
+id=true
+# --field-end--
+# --field-start--
+fieldName=title
+columnName=song_name
+# --field-end--
+# --field-start--
+fieldName=downVote
+columnName=song_voteminus
+# --field-end--
+# --field-start--
+fieldName=upVote
+columnName=song_voteplus
+# --field-end--
+# --field-start--
+fieldName=URL
+columnName=song_url
+# --field-end--
+# --field-start--
+fieldName=views
+columnName=song_views
+# --field-end--
+# --field-start--
+fieldName=category
+columnName=song_category
+# --field-end--
+# --table-fields-end--
+# --table-end--
+#################################
+# --table-start--
+dataClass=pl.dupesko.dupesko.Model.Playlist
+tableName=playlists
+# --table-fields-start--
+# --field-start--
+fieldName=mName
+columnName=playlist_name
+# --field-end--
+# --field-start--
+fieldName=mMusicList
+columnName=playlist_songs
+# --field-end--
+# --table-fields-end--
+# --table-end--
+#################################
